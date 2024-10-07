@@ -1,0 +1,54 @@
+{
+  "Out_of_Range_IP": [
+    {
+      "prioity": "Medium",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA250zh269zs308zr7",
+        "arn": "arn:aws:iam::123456789012:user/dimitri",
+        "accountId": "123456789012",
+        "userName": "dimitri"
+      },
+      "eventID": "9f21a821-925c-4dac-97a9-1ce47d2051b4",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "TerminateInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "41.219.220.250"
+    }
+  ],
+  "Outside_of_US_or_IRE": [
+    {
+      "priority": "Medium",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA250zh269zs308zr7",
+        "arn": "arn:aws:iam::123456789012:user/dimitri",
+        "accountId": "123456789012",
+        "userName": "dimitri"
+      },
+      "eventID": "9f21a821-925c-4dac-97a9-1ce47d2051b4",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "TerminateInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "41.219.220.250"
+    }
+  ],
+  "Unapproved_Service_Use": [
+    {
+      "priority": "High",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDA250zh269zs308zr7",
+        "arn": "arn:aws:iam::123456789012:user/dimitri",
+        "accountId": "123456789012",
+        "userName": "dimitri"
+      },
+      "eventID": "9f21a821-925c-4dac-97a9-1ce47d2051b4",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "TerminateInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "41.219.220.250"
+    }
+  ],
+  "Critical_Resource_Accessed": []
+}
